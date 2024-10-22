@@ -1,0 +1,118 @@
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: bisque;
+}
+
+header,footer{
+    background-color: #E8B86D;
+    color:black;
+    text-align: left;
+    padding: 1em 0;
+}
+
+nav{
+    background-color: blanchedalmond;
+    border: 1px solid brown;
+    padding: 1em;
+}
+nav ul{
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li{
+    display: inline;
+    margin-left: 10px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:#d0912c;
+}
+main{
+    height: 650px;
+}
+.artikel1{
+    background-color: bisque;
+    color: rgb(0, 0, 0);
+    height: 250px;
+    width:950px;
+    border-radius: 10px;
+    float:left;
+}
+.artikel2{
+    background-color: bisque;
+    color: rgb(0, 0, 0);
+    height: 330px;
+    width:550px;
+    border-radius: 10px;
+    float:right;
+}
+.alamat{
+    background-color: rgb(239, 171, 88);
+    color: black;
+    height: 450px;
+    border: 1px solid #E8B86D;
+}
+.artikel3{
+    background-color: bisque;
+    color: rgb(0, 0, 0);
+    height: 250px;
+    width:950px;
+    border-radius: 10px;
+    float:left;
+    margin-left: 20px;
+}
+.artikel4{
+    background-color:bisque;
+    color: rgb(0, 0, 0);
+    height: 250px;
+    width:700px;
+    border-radius: 10px;
+    float:right;
+    margin-left: 20px;
+}
+.artikel5{
+    background-color:bisque;
+    color: rgb(0, 0, 0);
+    height: 250px;
+    width:700px;
+    border-radius: 10px;
+    float: right;
+    margin-left: 20px;
+}
+
+.gambar{
+    border:2px;
+    width:200px;
+    height:200px;
+}
+
+.konten{
+    border:2px;
+    width:500px;
+    height:500px;
+    margin-left:180px;
+}
+
+.section2{
+    margin-top:30px;
+}
+
+.map-container
+.address-container
+.label-container
+.contact-container{
+    margin-bottom: 30px;
+}
+
+.map iframe{
+    width: 550px;
+    max-width: 600px;
+    height: 250px;
+    border: none;
+    border-radius: 10px;
+}
